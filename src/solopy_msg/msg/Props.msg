@@ -1,0 +1,11 @@
+int64 pwm
+int64 nop
+int64 noe
+float64 skp
+float64 ski
+float64 pkp
+float64 pki
+float64 cl
+float64 busvol
+float64 dsl
+float64 dpr
