@@ -12,10 +12,10 @@ class MinimalPublisher(Node):
         super().__init__('FSR_Publisher')
         self.publisher_ = self.create_publisher(String, 'topic', 10)
 
-        self.FSR_RH_pin = 1
-        self.FSR_RT_pin = 2
-        self.FSR_LH_pin = 3
-        self.FSR_LT_pin = 4
+        self.FSR_RH_pin = 1 #핀 넘버 맞춰주기
+        self.FSR_RT_pin = 2 #핀 넘버 맞춰주기
+        self.FSR_LH_pin = 3 #핀 넘버 맞춰주기
+        self.FSR_LT_pin = 4 #핀 넘버 맞춰주기
 
         GPIO.setmode(GPIO.BOARD)
 
